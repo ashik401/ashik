@@ -1,0 +1,113 @@
+
+.body::before{
+    content: "";
+    background: url("https://i.postimg.cc/yxFJtNWZ/316529594-1625833821167569-7973427789207053442-n.jpg");
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: cover;
+    position: absolute;
+    top: 3em;
+    height: 100%;
+    width: 100%;
+    z-index: -2; 
+}
+body{
+   background-image: url("https://i.ibb.co/YBxnjyp/Capture3.jpg"); 
+}
+.body{
+    height: 100vh;
+}
+#about{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+.about-web{
+    color: rgb(230, 215, 86);
+}
+.skill{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:larger;
+}
+.shado{
+    text-shadow: 3px 2px 3px rgb(128, 75, 45);
+    color: rgb(230, 215, 86);
+}
+.main-part{
+    background-color:rgba(94, 95, 95, 0.836) ;
+}
+.resume{
+    margin-top: 5.5em;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+.button{
+    background-color: rgb(230, 215, 86)!important;  
+    font-weight: bolder!important; 
+}
+.button:hover{
+    border-radius: 25px;
+    background-color: white!important;
+    color: black!important;
+    font-weight: 900!important;
+}
+#carouselExampleIndicators{
+   position: relative;
+}
+#project{
+    margin-top:20%;
+}
+#contact{
+    margin-top: 5em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:larger;
+}
+.inner-li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+.nav-item:hover{
+    border-bottom: .5px solid rgb(230, 215, 86);
+}
+
+.f{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.f:hover{
+    background-color: rgb(230, 215, 86)
+}
+.a:hover{
+   color: white;
+}
+.a{
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.web {
+  border-right: solid 3px rgba(231, 221, 76, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgb(230, 215, 86);
+}
+
+/* Animation */
+.web {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 320px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(202, 245, 49, 0.75);}
+  to{border-right-color: transparent;}
+}
